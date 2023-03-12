@@ -28,6 +28,11 @@
 		F43A75FF29A9AF3A0023A0A4 /* mission0.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A75F729A9AF3A0023A0A4 /* mission0.png */; };
 		F43A760229A9AF4F0023A0A4 /* tip0.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A760029A9AF4F0023A0A4 /* tip0.png */; };
 		F43A760329A9AF4F0023A0A4 /* tip1.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A760129A9AF4F0023A0A4 /* tip1.png */; };
+		F4C7607529BDD2EE00D40FF5 /* TrashSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7607429BDD2EE00D40FF5 /* TrashSurveyView.swift */; };
+		F4C7607729BDD30C00D40FF5 /* TrashSurveyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7607629BDD30C00D40FF5 /* TrashSurveyResultView.swift */; };
+		F4C7607929BDD33300D40FF5 /* DailyQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7607829BDD33300D40FF5 /* DailyQuest.swift */; };
+		F4C7607B29BDD36200D40FF5 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7607A29BDD36200D40FF5 /* settings.swift */; };
+		F4C7607D29BDD37C00D40FF5 /* answerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C7607C29BDD37C00D40FF5 /* answerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +60,11 @@
 		F43A75F729A9AF3A0023A0A4 /* mission0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission0.png; sourceTree = "<group>"; };
 		F43A760029A9AF4F0023A0A4 /* tip0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tip0.png; sourceTree = "<group>"; };
 		F43A760129A9AF4F0023A0A4 /* tip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tip1.png; sourceTree = "<group>"; };
+		F4C7607429BDD2EE00D40FF5 /* TrashSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashSurveyView.swift; sourceTree = "<group>"; };
+		F4C7607629BDD30C00D40FF5 /* TrashSurveyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashSurveyResultView.swift; sourceTree = "<group>"; };
+		F4C7607829BDD33300D40FF5 /* DailyQuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuest.swift; sourceTree = "<group>"; };
+		F4C7607A29BDD36200D40FF5 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		F4C7607C29BDD37C00D40FF5 /* answerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,11 @@
 				9ADAC5DD29702DF3000D8C6F /* USG01App.swift */,
 				9ADAC5DF29702DF3000D8C6F /* ContentView.swift */,
 				F43A75E829A6FDA10023A0A4 /* StampView.swift */,
+				F4C7607A29BDD36200D40FF5 /* settings.swift */,
+				F4C7607C29BDD37C00D40FF5 /* answerView.swift */,
+				F4C7607429BDD2EE00D40FF5 /* TrashSurveyView.swift */,
+				F4C7607629BDD30C00D40FF5 /* TrashSurveyResultView.swift */,
+				F4C7607829BDD33300D40FF5 /* DailyQuest.swift */,
 				9AF044C829A213510015F438 /* WasteChartView.swift */,
 				9ADD039D29B2E499007AD168 /* NameSettingsView.swift */,
 				9ADD03A129B31775007AD168 /* InitialView.swift */,
@@ -254,12 +269,17 @@
 			files = (
 				9AE4E5CF29B06C2A0020A12A /* WasteDataModel.xcdatamodeld in Sources */,
 				9ADD03A229B31775007AD168 /* InitialView.swift in Sources */,
+				F4C7607B29BDD36200D40FF5 /* settings.swift in Sources */,
+				F4C7607729BDD30C00D40FF5 /* TrashSurveyResultView.swift in Sources */,
+				F4C7607D29BDD37C00D40FF5 /* answerView.swift in Sources */,
 				9AE4E5D229B06DC60020A12A /* DataController.swift in Sources */,
 				9AF044C929A213510015F438 /* WasteChartView.swift in Sources */,
 				9ADD039E29B2E499007AD168 /* NameSettingsView.swift in Sources */,
 				9ADAC5E029702DF3000D8C6F /* ContentView.swift in Sources */,
+				F4C7607529BDD2EE00D40FF5 /* TrashSurveyView.swift in Sources */,
 				F43A75E929A6FDA10023A0A4 /* StampView.swift in Sources */,
 				9ADAC5DE29702DF3000D8C6F /* USG01App.swift in Sources */,
+				F4C7607929BDD33300D40FF5 /* DailyQuest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
